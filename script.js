@@ -48,7 +48,7 @@ function copiarText() {
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    alert("O texto é: " + textoCopiado.value);
+    alert("O texto copiado é: " + textoCopiado.value);
 }
 
 
