@@ -139,12 +139,6 @@ main{
     resize: none;
 }
 
-::img{
-    .texto-saida{
-        background-image: none;
-    }
-}
-
 .texto-saida:focus{
     outline: none;
 }
