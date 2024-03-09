@@ -13,7 +13,7 @@ body{
     height: 90vh;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    background-image: url(.src/assets/Funny\ Astronaut.jfif);
+    background-image: url(/src/assets/Funny-Astronaut.png);
     background-image: right;
     background-repeat: no-repeat;
     background-image: invert;
