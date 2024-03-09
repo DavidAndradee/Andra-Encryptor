@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: greenyellow;
+    --secundary-color: darkblue;
+    --terciary-color: white;
+    --quaternary--color: rgba(239, 241, 236, 0.589);
+}
+
+body{
+    background: linear-gradient(#0be728, #ffffffd7);
+    display: flex;
+    height: 90vh;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(/src/assets/Funny\ Astronaut.jfif);
+    background-image: right;
+    background-repeat: no-repeat;
+    background-image: invert;
+    background-size: cover;
+}
+
+.aviso{
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 15px;
+    width: 150px;
+    color: var(--primary-color);
+    border-radius: 12px;
+    text-align: center;
+}
+
+hearder{
+    padding: 20px 5px 5px 20px;
+}
+
+.logo-alura{
+    margin-left: 10px;
+    padding: 10px;
+    width: 2px;
+}
+
+main{
+    display: flex;
+}
+
+
+.texto-entrada{
+    border-radius: 20px;
+    background: var(--quaternary--color);
+    margin-top: 60px;
+    margin-right: 50px;
+    text-transform: lowercase;
+    width: 500px;
+    height: 400px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    resize: none;
+}
+
+.informativo{
+    display: flex;
+    align-items: center;
+    height: 24px;
+    margin: 10px;
+}
+
+.alert{
+    width: 16px;
+    height: 16px;
+    margin: 7px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 12px;
+    margin-right: 20px;
+    margin-left: 100px;
+
+}
+
+.botao-encripta{
+    background-color:var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.botao-encripta:active {
+    background-color: white;
+}
+
+.botao-desencripta{
+    background-color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 12px;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.botao-desencripta:active {
+    background-color: white;
+}
+
+
+::placeholder{ color: darkblue;}
+    .texto-entrada{
+        outline: none;
+        font-weight: bold;
+    }
+
+.texto-saida{
+    background-color: var(--quaternary--color);
+    background-image: url(/src/assets/Frame\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    border-radius: 20px;
+    color: darkblue;
+    height: 400px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 180px;
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    resize: none;
+}
+
+::img{
+    .texto-saida{
+        background-image: none;
+    }
+}
+
+.texto-saida:focus{
+    outline: none;
+}
+
+
+.action-copy{
+    background-color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-left: 390px;
+    margin-top: 50px;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.text{
+    align-items: center;
+    margin: 5px;
+    background: linear-gradient(#0be728d8, #ffffff96);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 65px;
+}
+
+.disclaimer-title{
+    margin: 7px;
+}
+
+.button-aqui{
+    padding: 3.5px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin: 7px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.button-aqui:hover{
+    color: var(--secundary-color);
+    background-color:var(--terciary-color);
+}
+
+.action-copy:active {
+    background-color: white;
+}
+
+.icon{
+    align-items: center;
+    width: 12px;
+    gap: 10px;
+}
+
