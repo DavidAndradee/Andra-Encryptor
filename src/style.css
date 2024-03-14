@@ -291,11 +291,11 @@ main{
     }
 
     .botao-encripta{
-        margin: 25px 25px 25px 25px;
+        margin: 15px;
     }
 
     .botao-desencripta{
-        margin: 25px 25px 25px 25px;
+        margin: 15px;
     }
 
     .text-output{
@@ -333,7 +333,9 @@ main{
     }
 
     .action-copy{
-        margin: 55px;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 55px;
     }
 
     .disclaimer-title{
