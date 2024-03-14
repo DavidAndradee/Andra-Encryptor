@@ -1,6 +1,10 @@
 const textoEntrada = document.querySelector(".texto-entrada");
 const textoSaida = document.querySelector(".texto-saida");
 
+textoEntrada.addEventListener("focus", function(){
+    this.setAttribute("placeholder","");
+});
+
 function actionEncriptar(){
     const textEncriptado = encriptaTexto(textoEntrada.value);
     textoSaida.value = textEncriptado;

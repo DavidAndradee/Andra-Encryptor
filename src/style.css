@@ -51,6 +51,7 @@ main{
     margin-top: 60px;
     margin-right: 50px;
     text-transform: lowercase;
+    color: rgb(4, 4, 119);
     width: 500px;
     height: 400px;
     font-family: "Montserrat", sans-serif;
@@ -116,10 +117,17 @@ main{
 }
 
 
-::placeholder{ color: darkblue;}
-    .texto-entrada{
+::placeholder{ color: rgb(4, 4, 119);}
+    .texto-entrada, .texto-saida{
         outline: none;
         font-weight: bold;
+        font-size: 35px;
+        padding: 0;
+        text-align: center;
+        line-height: 1.5;
+        position: center;
+        line-height: 375px;
+
     }
 
 .texto-saida{
@@ -129,7 +137,7 @@ main{
     background-repeat: no-repeat;
     align-items: center;
     border-radius: 20px;
-    color: darkblue;
+    color: rgb(4, 4, 119);
     height: 400px;
     width: 500px;
     margin-top: 60px;
@@ -268,7 +276,12 @@ main{
         line-height: 100px;    
     }
 
-    .texto-entrada::placeholder{
+    ::placeholder{ color: darkblue;}
+    .texto-entrada, .texto-saida{
+        outline: none;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 0;
         text-align: center;
     }
 
@@ -327,10 +340,6 @@ main{
         background-size: 190px;
         line-height: 100px;
     }    
-
-    .texto-saida::placeholder{
-        color: transparent;
-    }
 
     .action-copy{
         margin: 0;
