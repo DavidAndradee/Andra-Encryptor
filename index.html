@@ -14,23 +14,23 @@
         <img class="log-alura" src="src/assets/Logo.png" alt="Logo da Alura">
     </header>
 
-    <main>
-        <section>
-                <textarea class="texto-entrada" cols="30" rows="10" placeholder="digite o texto aqui"></textarea>
-                
-                <div class="informativo">
-                    <img class="alert" src="src/assets/Vector.png" alt="alerta de restrição">
-                    <h6 class="aviso">Apenas letras mínusculas</h6>
+    <main class="my-main">
+        <section class="text-input">
+                <div class="entrada">
+                    <textarea class="texto-entrada" cols="30" rows="10" placeholder="digite o texto aqui"></textarea>
+                    <div class="informativo">
+                        <img class="alert" src="src/assets/Vector.png" alt="alerta de restrição">
+                        <h6 class="aviso">Apenas letras mínusculas</h6>
+                    </div>
+    
+                    <div class="botoes">
+                        <button onclick="actionEncriptar()" class="botao-encripta">Criptografar</button>
+                        <button onclick="actionDesencriptar()" class="botao-desencripta">Descriptografar</button>
+                    </div>
                 </div>
-
-                <div class="botoes">
-                    <button onclick="actionEncriptar()" class="botao-encripta">Criptografar</button>
-                    <button onclick="actionDesencriptar()" class="botao-desencripta">Descriptografar</button>
-                </div>
-
         </section>
         
-        <section>
+        <section class="text-output">
             <div class="saidas">
                 <textarea class="texto-saida" placeholder="aguardando..." cols="30" rows="10"></textarea>
             </div>
